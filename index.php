@@ -9,6 +9,7 @@ if (isset($_GET['p'])){
     $p = 'home';
 }
 
+
 ob_start();
 if($p === 'home'){
     require 'pages/home.php';
